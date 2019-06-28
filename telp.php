@@ -25,12 +25,11 @@ echo $green."
 ==============================
 |[!]  Army Cyber Network  [!]|
 ==============================\n";
-echo "\n"
-echo $blue."
-Tools Spam Call\n";
+echo "\n";
+echo "Tools Spam Call\n";
 echo $red."
 Codec By MryM\n";
-echo "Nomor Target\nMasukan : ";
+echo "Nomor Target\nInput : ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
