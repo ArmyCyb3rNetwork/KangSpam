@@ -11,3 +11,5 @@ $pkg install curl
 Support Us
 
 TTD Army Cyber Network
+
+Author : Mr.yM
