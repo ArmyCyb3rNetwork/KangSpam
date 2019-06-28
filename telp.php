@@ -30,7 +30,7 @@ echo $blue."
 Tools Spam Call\n";
 echo $red."
 Codec By MryM\n";
-echo "Nomor Target\nroot@.Masukan : ";
+echo "Nomor Target\nMasukan : ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
